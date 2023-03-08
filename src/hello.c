@@ -2,5 +2,5 @@
 
 int main (void) {
     printf ("Hello, AI!\n");
-    return 0;
+    return (0);
 }
