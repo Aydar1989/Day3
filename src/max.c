@@ -1,12 +1,19 @@
 #include <stdio.h>
 
-int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
-if (a>b) { 
-    printf("%d\n", a);
-} else {
-    printf("%d\n", b);
-}
-    return 0;
-}
+int max(int a, int b);
+
+    int  main() {
+        int x, y, c, d;
+        d = scanf("%d %d.%d", &x, &y, &c);
+        int z = max(x,y);
+           if (d != 2 )
+               printf("n/a\n");
+           else  
+              printf("%d\n", z);
+    }
+        int max(int a, int b) { 
+        int m = a;
+            if(b>a)
+               m = b;     
+            return m;
+    }
