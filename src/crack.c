@@ -6,14 +6,14 @@
         double  x, y, d, r;
         d = scanf("%lf %lf", &x, &y);
         r = x * x + y * y;
-              if (d == 1 ) { 
-                  printf("n/a\n");
+	       if (d == 2) { 
+                  
                     if (r < 25)
-                       printf("GOTCHA");
+                       printf("GOTCHA\n");
                     else 
-                       printf("MISS");
+                       printf("MISS\n");
               }
               else
-                   printf("%lf\n", y);
+                   printf("n/a\n");
     return 0;
     }
